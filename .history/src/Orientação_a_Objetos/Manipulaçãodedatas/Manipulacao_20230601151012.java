@@ -1,0 +1,23 @@
+package Orientação_a_Objetos.Manipulaçãodedatas;
+
+import java.time.LocalDate;
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class Manipulacao {
+
+    public static void main(String[] args) {
+
+        LocalDate d04 = LocalDate.parse("2020-01-04"); // faz o parse(conversion) da data local para string
+        System.out.println(d04);
+
+        LocalDate d05 = LocalDate.parse("2020-01-05"); // faz o parse(conversion) da data local para string
+
+        Instant d06 = Instant.parse("2020-01-06T13:30:00Z"); // faz o parse(conversion) da data local para string
+
+        // https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html
+
+    }
+
+}

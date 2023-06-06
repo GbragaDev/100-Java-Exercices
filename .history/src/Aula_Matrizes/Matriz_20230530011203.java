@@ -1,0 +1,48 @@
+package Aula_Matrizes;
+
+
+
+/*
+ *  Array  = lista de n Elementos do mesmo tipo ;
+ * 
+ *  Matriz = lista de n Elementos do mesmo tipo e mesma dimensão;
+ *      n  x   elementos
+ * 
+ *  Matriz == array de array ;
+ * 
+ */
+
+public class Matriz {
+
+    public static void main(String[] args) {
+
+
+        // 1º forma de declarar uma matriz
+        double[][] notasdealunos = new double[30][4];
+     
+        // nome da matriz [linha][coluna]
+        notasdealunos[0][0] = 10;
+        notasdealunos[0][1] = 7;
+        notasdealunos[0][2] = 8;
+        notasdealunos[0][3] = 9.5;
+        
+        
+
+        notasdealunos[1][0] = 9;
+    
+}
+
+
+
+
+
+}
+
+
+
+// armazenar as 4 notas do ano de 30 alunos.
+
+/*
+ * 
+ * Matriz é uma tabela de dados, onde cada elemento é identificado por um indice de linha e coluna.
+ */
